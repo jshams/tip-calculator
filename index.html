@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- html elements -->
+
+    <p>
+      <label for="amount">Bill</label>
+      <input id="amount" type="number" value="10.00">
+    </p>
+
+    <p>
+      <label for="percent">Tip %</label>
+      <input id="percent" type="number" value="15">
+    </p>
+
+    <p>
+      <label for="people">Number of People</label>
+      <input id="people" type="number" value="2">
+    </p>
+
+    <button id="calculate">Calculate</button>
+
+    <p class="calc-box">
+      <span>Tip:</span>
+      <span class="output">$<span id="tip">0.00</span></span>
+    </p>
+
+    <p class="calc-box">
+      <span>Total:</span>
+      <span class="output">$<span id="total">0.00</span></span>
+    </p>
+
+    <p class="per-person">Per Person</p>
+
+    <p class="calc-box">
+      <span>Tip:</span>
+      <span class="output">$<span id="tip-each">0.00</span></span>
+    </p>
+
+    <p class="calc-box">
+      <span>Total:</span>
+      <span class="output">$<span id="each">0.00</span></span>
+    </p>
+
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+  </body>
+</html>
